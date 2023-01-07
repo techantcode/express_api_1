@@ -1,7 +1,11 @@
 const express = require('express');
 const {v4:uuid} = require('uuid');
 const router = express.Router();
-let students = [];
+let students = [
+    {
+        name:"Antarip Chhatterjee"
+    }
+];
 //const id = uuid();
 router.get('/',(req,res)=>{
     res.send(students);
