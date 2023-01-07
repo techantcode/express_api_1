@@ -1,2 +1,2 @@
 # express api
-https://singlet-cygnet.cyclic.app/student
+https://expressant.cyclic.app/student
